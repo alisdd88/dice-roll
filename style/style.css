@@ -1,0 +1,33 @@
+body {
+    background-color: #393E46;
+    color: #4ECCA3;
+}
+
+h1 {
+    text-align: center;
+    font-size: 130px;
+    font-family: "Lobster", cursive;
+}
+
+p, .btn {
+    font-family: "Indie Flower", serif;;
+}
+
+.btn {
+    background-color: #4ECCA3;
+}
+
+@media (max-width:1200px){
+    h1 {
+        font-size: 100px;
+    }
+    img {
+        height: 200px;
+        width: 200px;
+    }
+}
+@media (max-width:500px){
+    h1 {
+        font-size: 50px;
+    }
+}
